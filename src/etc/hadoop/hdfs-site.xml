@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!--
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. See accompanying LICENSE file.
+-->
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+	<property>
+		<name>dfs.replication</name>
+		<value>2</value>
+	</property>
+	<property>
+		<name>dfs.nameservices</name>
+		<value>ns</value>
+	</property>
+	<property>
+		<name>dfs.ha.namenodes.ns</name>
+		<value>nn1,nn2</value>
+	</property>
+	<property>
+		<name>dfs.namenode.rpc-address.ns.nn1</name>
+		<value>10.49.84.234:9000</value>
+	</property>
+	<property>
+		<name>dfs.namenode.rpc-address.ns.nn2</name>
+		<value>10.49.85.70:9000</value>
+	</property>
+	<property>
+		<name>dfs.namenode.http-address.ns.nn1</name>
+		<value>10.49.84.234:50070</value>
+	</property>
+	<property>
+		<name>dfs.namenode.http-address.ns.nn2</name>
+		<value>10.49.85.70:50070</value>
+	</property>
+	<property>
+		<name>dfs.namenode.servicerpc-address.master.nn1</name>
+		<value>10.49.84.234:53310</value>
+	</property>
+	<property>
+		<name>dfs.namenode.servicerpc-address.master.nn2</name>
+		<value>10.49.85.70:53310</value>
+	</property>
+	<property>
+		<name>dfs.namenode.shared.edits.dir</name>
+		<value>qjournal://10.49.84.234:8485;10.49.85.70:8485;10.49.85.76:8485/ns</value>
+	</property>
+	<property>
+		<name>dfs.journalnode.edits.dir</name>
+		<value>/data/dev/hadoop-2.8.0/workspace/journal</value>
+	</property>
+	<property>
+		<name>dfs.ha.automatic-failover.enabled</name>
+		<value>true</value>
+	</property>
+	<property>
+		<name>dfs.client.failover.proxy.provider.ns</name>
+		<value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+	</property>
+	<property>
+		<name>dfs.ha.fencing.methods</name>
+		<value>sshfence</value>
+	</property>
+	<property>
+		<name>dfs.ha.fencing.ssh.private-key-files</name>
+		<value>/root/.ssh/id_rsa</value>
+	</property>
+	<property>
+		<name>dfs.namenode.name.dir</name>
+		<value>file:/home/hdfs/dfs/name</value>
+	</property>
+	<property>
+		<name>dfs.blocksize</name>
+		<value>268435456</value>
+	</property>
+	<property>
+		<name>dfs.namenode.handler.count</name>
+		<value>100</value>
+	</property>
+	<property>
+		<name>dfs.datanode.data.dir</name>
+		<value>file:/home/hdfs/dfs/data</value>
+	</property>
+	<property>
+		<name>dfs.webhdfs.enabled</name>
+		<value>true</value>
+	</property>
+</configuration>
