@@ -23,7 +23,9 @@ About Author
 ---------------------------------------
 Fa1c0n.
 A geek that likes Apple products.
+
 Personal blog: http://www.fa1c0n.cn/
+
 HadoopHADeploymentScript blog address: http://t.cn/RXEEZrs
 
 
