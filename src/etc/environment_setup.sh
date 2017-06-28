@@ -107,7 +107,7 @@ fi
 ping -c 4 ${CURRENT_HOST_NAME}
 fahda_loginfo "ping -c 4 ${CURRENT_HOST_NAME}"
 
-sudo apt-get -y update && sudo apt-get -y dist-upgrade
+sudo apt-get -yqq update && sudo apt-get -yqq dist-upgrade
 fahda_loginfo "sudo apt-get update && sudo apt-get dist-upgrade"
 
 sudo mkdir -p /etc/fahda_installation_tag/
