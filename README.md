@@ -1,7 +1,7 @@
 Hadoop 2.8.0 HA Cluster Automatic Deployment Script
 ========
 
-HadoopHADeploymentScript released under GPL v3.
+HadoopHADeploymentScript released under GPL v2.
 
 What is HadoopHADeploymentScript
 --------------------------------------
