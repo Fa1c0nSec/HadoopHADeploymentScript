@@ -1,6 +1,8 @@
 Hadoop 2.8.0 HA Cluster Automatic Deployment Script
 ========
 
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2523/badge)](https://bestpractices.coreinfrastructure.org/projects/2523) 
+
 HadoopHADeploymentScript released under GPL v2.
 
 What is HadoopHADeploymentScript
