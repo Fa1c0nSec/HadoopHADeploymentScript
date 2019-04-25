@@ -8,7 +8,7 @@ Hadoop 2.8.0 HA Cluster Automatic Deployment Script
 [![GitHub forks](https://img.shields.io/github/forks/Fa1c0nSec/HadoopHADeploymentScript.svg?label=Fork)](https://github.com/Fa1c0nSec/HadoopHADeploymentScript)
 
 
-HadoopHADeploymentScript released under GPL v2.
+HadoopHADeploymentScript released under GPL v2 & Anti996 License.
 
 What is HadoopHADeploymentScript
 --------------------------------------
