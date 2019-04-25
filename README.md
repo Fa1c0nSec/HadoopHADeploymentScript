@@ -1,6 +1,11 @@
 Hadoop 2.8.0 HA Cluster Automatic Deployment Script
 ========
 
+[![Build Status](https://travis-ci.org/Fa1c0nSec/HadoopHADeploymentScript.svg?branch=master)](https://travis-ci.org/Fa1c0nSec/HadoopHADeploymentScript)
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-GPLv2-brightgreen.svg)](https://github.com/Fa1c0nSec/HadoopHADeploymentScript/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Fa1c0nSec/HadoopHADeploymentScript.svg?label=Stars)](https://github.com/Fa1c0nSec/HadoopHADeploymentScript)
+[![GitHub forks](https://img.shields.io/github/forks/Fa1c0nSec/HadoopHADeploymentScript.svg?label=Fork)](https://github.com/Fa1c0nSec/HadoopHADeploymentScript)
 
 
 HadoopHADeploymentScript released under GPL v2.
